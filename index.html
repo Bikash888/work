@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<head>
+  <title>Person Details</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    p {
+      font-family: Verdana, sans-serif;
+      margin: 0px 12px 0px 12px;
+      text-align: justify;
+    }
+    .slide {
+      display: none;
+    }
+    img {
+      vertical-align: middle;
+    }
+    .wrapper {
+      background-color: aquamarine;
+    }
+    .basic-info {
+      margin: 0 auto;
+    }
+    .round-image {
+      border-radius: 70%;
+      background-color: brown;
+      width: 100px;
+      margin-left: 46%;
+    }
+    h3 {
+      font-family: "Kalam";
+    }
+    .data {
+      text-align: center;
+    }
+    .main {
+      background-color: darkcyan;
+    }
+    .sidebar {
+      background-color: crimson;
+      width: 15%;
+      margin-left: 15%;
+      display: inline-block;
+      box-shadow: 3px 5px rgb(58, 1, 1);
+    }
+    .display {
+      background-color: darkgreen;
+      width: 70%;
+      float: right;
+      display: inline-block;
+    }
+    nav {
+      margin-left: 20px;
+      background-color: crimson;
+    }
+    a {
+      text-decoration: none;
+      padding: 0px 12px 0px 12px;
+      display: inline-block;
+      font-family: "Acme";
+      font-size: 27px;
+      color: white;
+    }
+    a:hover {
+      background: rgb(196, 124, 30);
+      text-decoration: none;
+    }
+    .slide-wrapper {
+      background-color: chocolate;
+      width: 90%;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    .mySlides {
+      display: none;
+    }
+    img {
+      vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 1000px;
+      position: relative;
+      margin: auto;
+    }
+    .holder{
+      width: 100%;
+    }
+
+    
+    /* Fading animation */
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+      from {
+        opacity: 0.4;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: 0.4;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .f-image{
+      border-radius: 50%;
+      width: 100px;
+      background-color: red;
+    }
+    .friend{
+      display: inline-block;
+      margin: 20px 15px 10px 15px;
+    }
+    .friends{
+      margin-left: 40px;
+    }
+  </style>
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Acme&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Kalam:700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="basic-info">
+      <div class="round-image">
+        <img src="avtar.png" width="100%" height="100%" />
+      </div>
+      <div class="data">
+        <h3>Bikash Dulal</h3>
+        <h3>9813228397</h3>
+        <h3>Panchkhal,kavre</h3>
+      </div>
+    </div>
+    <div class="main">
+      <div class="sidebar">
+          <div style="height: 150px; background-color: rosybrown;">
+            <img src="avtar.png" width="100%" height="100%">
+          </div>
+          <div style="text-align: ;">
+            <h3>Bikash Dulal</h3>
+            <h3>9813228397</h3>
+            <h3>Panchkhal,kavre</h3>
+          </div>
+          <div>
+            <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+    
+          </div>
+      </div>
+      <div class="display">
+        <div>
+          <nav>
+            <a href="#">Home</a>
+            <a href="#">Education</a>
+            <a href="#">Friends</a>
+            <a href="#">Contact</a>
+          </nav>
+        </div>
+
+        <div class="holder">
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="images/1.jpg" style="width:100%" height="400px" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/2.jpg" style="width:100%" height="400px"/>
+          </div>
+
+          <div class="mySlides fade">
+            <img src="images/3.jpg" style="width:100%" height="400px"/>
+          </div>
+        </div>
+      </div>
+      <div class="info">
+      <h2 style="text-align: center; color: rgb(7, 1, 1);">Who am I?</h2>
+      <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+      </div>
+      <div class="studies" style="margin: 20px 0px 0px 10px;">
+        <h2>
+          Studies
+        </h2>
+         <li>Everest Engineering College</li>
+         <li>NIST Banepa</li>
+      </div>
+      <div class="friends">
+         <div class="friend">
+            <div class="f-image">
+              <img src="avtar.png" height="100%" width="100%">
+            </div>
+            <h4 style="margin-left: 18px;">Hazard</h4>
+         </div>
+         <div class="friend">
+          <div class="f-image">
+            <img src="avtar.png" height="100%" width="100%">
+          </div>
+          <h4 style="margin-left: 18px;">Hazard</h4>
+       </div>
+       <div class="friend">
+        <div class="f-image">
+          <img src="avtar.png" height="100%" width="100%">
+        </div>
+        <h4 style="margin-left: 18px;">Hazard</h4>
+     </div>
+     <div class="friend">
+      <div class="f-image">
+        <img src="avtar.png" height="100%" width="100%">
+      </div>
+      <h4 style="margin-left: 18px;">Hazard</h4>
+   </div>
+   <div class="friend">
+    <div class="f-image">
+      <img src="avtar.png" height="100%" width="100%">
+    </div>
+    <h4 style="margin-left: 18px;">Hazard</h4>
+ </div>
+ <div class="friend">
+  <div class="f-image">
+    <img src="avtar.png" height="100%" width="100%">
+  </div>
+  <h4 style="margin-left: 18px;">Hazard</h4>
+</div>
+
+
+      </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+
+      slides[slideIndex - 1].style.display = "block";
+
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+  </script>
+</body>
